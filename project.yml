@@ -1,0 +1,17 @@
+environment: {}
+parameters: {}
+packages:
+  - name: rooms
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: create
+        binary: false
+        main: ''
+        runtime: 'go:default'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
