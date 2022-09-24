@@ -9,7 +9,7 @@ packages:
       - name: create
         binary: false
         main: ''
-        runtime: 'go:default'
+        runtime: 'nodejs:default'
         web: true
         parameters: {}
         environment: {
