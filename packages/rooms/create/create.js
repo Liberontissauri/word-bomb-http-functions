@@ -21,5 +21,5 @@ async function main(args) {
     redis.disconnect();
     return {}
 }
-main()
+
 exports.main = main;
